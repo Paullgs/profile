@@ -1,0 +1,100 @@
+/* color and fonts */
+
+body {
+	background-color: #f6eedf;
+	color: #323232;
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+}
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: #575F7D;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 40px;
+	text-transform: uppercase;	
+}
+h2 {
+	color: #f1935c;
+	font-weight: 300;
+	letter-spacing: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #30475e;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+color: purple;
+}
+
+div {
+	border: 2px;
+	margin: 10px;
+}
+
+/* Custom design with class */
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:4px;
+	margin: 25px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #30475e;
+	color: white;
+	padding: 15px 20px;
+	border-radius:4px;
+}
+.btn-blue:hover {
+	background-color: #424874;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #a6b1e1;
+}
+.list-inline i:hover {
+	color: #424874;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
